@@ -1,0 +1,296 @@
+.p-about {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-family: nexa;
+    letter-spacing: 1px;
+}
+
+.center{
+    text-align: center !important;
+}
+
+@media (max-width: 768px) {
+    .p-about {
+        font-size: 16px;
+    }
+}
+
+.judul-about {
+    font-family: nexa;
+    text-align: center;
+    color: #febf2c;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 40px 0;
+    display: inline block;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+@media (max-width: 768px) {
+    .judul-about {
+        font-size: 40px;
+    }
+}
+
+.responsif{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.centerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.yellow {
+    background: -webkit-linear-gradient(left, #F7EB23 30%, #F26B35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.orange {
+    background: -webkit-linear-gradient(left, #F05B36 30%, #F7EB23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.yellow-orange {
+    background: -webkit-linear-gradient(left, #F26B35 5%, #F7EB23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* About */
+#about-iot {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/iot.png) fixed center center;
+    background-size: cover;
+}
+
+#about-eec {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/eec.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#about-machbot {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/machbot.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#about-soccer {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/soccer.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#about-sumo {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/sumo.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+/* timeline Section
+--------------------------------*/
+#timeline {
+    padding: 180px 0;
+}
+
+#timeline .acara {
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+#timeline .tanggal {
+    font-size: 20px !important;
+}
+
+@media (max-width: 768px) {
+    #timeline .acara {
+        font-size: 20px !important;
+        margin-bottom: 0;
+    }
+
+    #timeline .tanggal {
+        font-size: 16px !important;
+    }
+}
+
+#timeline h5,
+p {
+    color: white;
+}
+
+/* Fasilitas */
+#fasilitas {
+    padding: 180px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-section.jpg) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#fasilitas h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+@media (max-width: 768px) {
+    #fasilitas h2 {
+        font-size: 20px;
+    }
+}
+
+/* Hadiah */
+#hadiah {
+    padding: 80px 0;
+}
+
+#hadiah .juara {
+    text-align: center;
+}
+
+#hadiah .juara h4 {
+    margin: 5px 0;
+}
+
+#hadiah .juara h1 {
+    font-family: nexa;
+    font-size: 60px;
+}
+
+@media (max-width: 768px) {
+    #hadiah .juara h1 {
+        font-size: 35px;
+    }
+}
+
+#hadiah .juara h4 {
+    color: white;
+    font-size: 35px;
+}
+
+@media (max-width: 768px) {
+    #hadiah .juara h4 {
+        font-size: 25px;
+    }
+}
+
+/* Regis 2 */
+#regis-iot {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/iot-regis.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#regis-eec {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/eec-regis.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#regis-machbot {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/machbot-regis.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#regis-soccer {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/soccer-regis.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#regis-sumo {
+    padding: 180px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/lomba/bg/sumo-regis.png) fixed center center;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.regis .float {
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.regis .btn-daftar {
+    font-family: nexa;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding: 13px 25px;
+    border-radius: 30px;
+    background-size: 200% auto;
+    background-image: linear-gradient(to left, #F26B35 0%, #FBB12F 50%, #F7EB23 100%);
+    margin: 0 25px;
+    color: black;
+    width: 100px !important;
+}
+
+@media (max-width: 768px) {
+    .regis .btn-daftar {
+        font-size: 30px;
+    }
+}
+
+.regis .btn-daftar:hover {
+    background-position: right center;
+    transition: 0.5s;
+    color: white;
+}
+
+#manusia{
+    background: #FBB12F;
+}
+#manusia .icon-manusia{
+    padding: 80px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#manusia .comingsoon{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 80px; 
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-family: nexa;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    #manusia .comingsoon {
+        font-size: 40px;
+    }
+}
